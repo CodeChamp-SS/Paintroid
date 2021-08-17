@@ -37,7 +37,7 @@ import static org.junit.Assert.assertTrue;
 
 public class FileFromOtherSourceIntegrationTest {
 
-	private static ArrayList<File> deletionFileList = null;
+	private ArrayList<File> deletionFileList;
 
 	@Rule
 	public ActivityTestRule<MainActivity> launchActivityRule = new ActivityTestRule<>(MainActivity.class);
